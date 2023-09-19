@@ -11,8 +11,6 @@ const Calculator = () => {
   const handleAddTwoNumber = () => {
     let intNum1 = (intNumber1) ? parseFloat(intNumber1) : '';
     let intNum2 = (intNumber2) ? parseFloat(intNumber2) : '';
-    console.log('num1: ', intNum1)
-    console.log('num2: ', intNum2)
     if (isNaN(intNum1) || isNaN(intNum2)) {
       notification.error({
         message: "Please key in the valid numbers."

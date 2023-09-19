@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
     "antd": "^5.9.1",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
