@@ -94,6 +94,56 @@ a {
   text-decoration: none;
 }
 
+.i-y-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.i-x-center {
+  display: flex;
+  justify-content: center;
+}
+
+.i-y-top {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.i-x-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.i-x-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.i-x-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.i-y-bottom {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.x-center {
+  justify-content: center;
+}
+
+.x-left {
+  justify-content: flex-start;
+}
+
+.x-right {
+  justify-content: flex-end;
+}
+
 @media (prefers-color-scheme: light) {
   html {
     /* color-scheme: light; */
