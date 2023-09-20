@@ -5,7 +5,7 @@ AEON FE Technical Assessment
 
 Step to clone and run the app:
 
-1. Open GitDesktop -> Clone Repository using URL -> Copy and paste this URL
+1. Open GitDesktop (any repo tools will do) -> Clone Repository using URL -> Copy and paste this URL
 
     https://github.com/hardih09/aeon-fe.git
 
